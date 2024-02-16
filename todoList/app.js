@@ -3,7 +3,7 @@ const todos = [ 'Doremon','Shinchan'];
 while(input !== "quit"){
     
     if(input=="list"){
-        console.log('**********');
+        console.log('*********');
         for(let i=0;i<todos.length;i++){
             console.log(`${i}: ${todos[i]}`);
         }
